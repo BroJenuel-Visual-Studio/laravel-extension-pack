@@ -1,0 +1,35 @@
+{
+    "name": "laravel-expack",
+    "displayName": "Laravel ExPack",
+    "description": "This extension pack is for laravel development.",
+    "version": "1.0.1",
+    "publisher": "MisterJ",
+    "icon": "images/icon.png",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/BroJenuel/CodeExtensionPack.git"
+    },
+    "engines": {
+        "vscode": "^1.58.0"
+    },
+    "scripts": {
+        "package": "vsce package",
+        "publish": "vsce publish"
+    },
+    "categories": [
+        "Extension Packs"
+    ],
+    "extensionPack": [ 
+        "onecentlin.laravel-blade",
+        "codingyu.laravel-goto-view",
+        "mikestead.dotenv",
+        "bmewburn.vscode-intelephense-client",
+        "onecentlin.laravel5-snippets",
+        "stef-k.laravel-goto-controller",
+        "editorconfig.editorconfig",
+        "ryannaddy.laravel-artisan",
+        "amiralizadeh9480.laravel-extra-intellisense",
+        "felixfbecker.php-debug",
+        "shufo.vscode-blade-formatter"
+    ]
+}
