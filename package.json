@@ -2,12 +2,12 @@
     "name": "laravel-expack",
     "displayName": "Laravel ExPack",
     "description": "This extension pack is for laravel development.",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "publisher": "MisterJ",
     "icon": "images/icon.png",
     "repository": {
         "type": "git",
-        "url": "https://github.com/BroJenuel/CodeExtensionPack.git"
+        "url": "https://github.com/BroJenuel/laravel-extension-pack.git"
     },
     "engines": {
         "vscode": "^1.58.0"
@@ -19,7 +19,7 @@
     "categories": [
         "Extension Packs"
     ],
-    "extensionPack": [ 
+    "extensionPack": [
         "onecentlin.laravel-blade",
         "codingyu.laravel-goto-view",
         "mikestead.dotenv",
