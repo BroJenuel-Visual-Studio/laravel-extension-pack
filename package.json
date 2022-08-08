@@ -2,7 +2,7 @@
     "name": "laravel-expack",
     "displayName": "Laravel ExPack",
     "description": "This extension pack is for laravel development.",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "publisher": "MisterJ",
     "icon": "images/icon.png",
     "repository": {
@@ -22,7 +22,6 @@
     "extensionPack": [
         "onecentlin.laravel-blade",
         "codingyu.laravel-goto-view",
-        "mikestead.dotenv",
         "bmewburn.vscode-intelephense-client",
         "onecentlin.laravel5-snippets",
         "stef-k.laravel-goto-controller",
@@ -30,6 +29,7 @@
         "ryannaddy.laravel-artisan",
         "amiralizadeh9480.laravel-extra-intellisense",
         "felixfbecker.php-debug",
-        "shufo.vscode-blade-formatter"
+        "shufo.vscode-blade-formatter",
+        "IronGeek.vscode-env"
     ]
 }
