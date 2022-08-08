@@ -4,6 +4,9 @@ All notable changes to the "laravel-extension-pack" extension pack will be docum
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
+## [1.0.3]
+- It seems the old Env Syntax highlighter does not support formatting and is not being updated last 3 years, so change it to the new one called ["ENV" published by Jakka Prihatna](https://marketplace.visualstudio.com/items?itemName=IronGeek.vscode-env).
+
 ## [1.0.2]
 - change repo
 
