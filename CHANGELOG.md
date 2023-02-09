@@ -4,6 +4,12 @@ All notable changes to the "laravel-extension-pack" extension pack will be docum
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
+## [1.0.6]
+- removed the extension EditorConfig for VS Code. It seems this should not be included as part of the core pack. Install it independently because this extension can work on any file being opened. I removed it because I don't like overriding VS Code editorConfig.
+- removed [ENV](https://marketplace.visualstudio.com/items?itemName=IronGeek.vscode-env) extension, because VS Code has core for formatting env  file.
+- added:
+  - [Laravel Blade Spacer](https://marketplace.visualstudio.com/items?itemName=austenc.laravel-blade-spacer) This is useful when doing some php functionality on your blade files.
+
 ## [1.0.5]
 - It seems the old Env Syntax highlighter does not support formatting and is not being updated last 3 years, so change it to the new one called ["ENV" published by Jakka Prihatna](https://marketplace.visualstudio.com/items?itemName=IronGeek.vscode-env).
 

@@ -2,7 +2,7 @@
     "name": "laravel-expack",
     "displayName": "Laravel ExPack",
     "description": "This extension pack is for laravel development.",
-    "version": "1.0.5",
+    "version": "1.0.6",
     "publisher": "MisterJ",
     "icon": "images/icon.png",
     "repository": {
@@ -25,14 +25,13 @@
         "bmewburn.vscode-intelephense-client",
         "onecentlin.laravel5-snippets",
         "stef-k.laravel-goto-controller",
-        "editorconfig.editorconfig",
         "ryannaddy.laravel-artisan",
         "amiralizadeh9480.laravel-extra-intellisense",
         "felixfbecker.php-debug",
         "shufo.vscode-blade-formatter",
-        "IronGeek.vscode-env"
+        "austenc.laravel-blade-spacer"
     ],
     "devDependencies": {
-        "vsce": "^2.10.0"
+        "vsce": "^2.15.0"
     }
 }
